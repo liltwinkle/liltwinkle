@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <title>T.Bhubaneswari</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #FFC0D9;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: #8ACDD7;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: black;
+            font-size: 1.04rem;
+        }
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 140px 0;
+        }
+
+        .firstsection div {
+            width: 30%;
+        }
+
+        .leftsection {
+            color: black;
+            font-size: 2.5rem;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background-color: #8ACDD7;
+            color: black;
+            border: 2px solid black;
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: #67729D;
+        }
+
+        .gr {
+            color: #33186B;
+        }
+
+        #element {
+            color: #67729D;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            color: black;
+            height: 80vh;
+        }
+
+        main hr {
+            border: 0;
+            background: #67729D;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .bo {
+            background: black;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: black;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            left: -9px;
+            top: -32px;
+            position: relative;
+            width: 23px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: #163020;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: #8ACDD7;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            max-width: auto;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 233px;
+        }
+
+        footer .textcenter {
+            text-align: center;
+            color: #33186B;
+            padding: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Bhubaneswari's portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="https://liltwinkle.github.io/WeatherCore/">Projects</a></li>
+                <div class="dropdown-content">
+                    <li><a href="/">Contact me</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi! My name is <span class="purple"> T.Bhubaneswari</span> and
+                I am a
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="https://github.com/liltwinkle"><button class="btn">Download resume</button></a>
+                    <a href="https://github.com/liltwinkle"><button class="btn">Visit Github</button></a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="pic.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="gr">What languages I know</span>
+            <h1><b>Skills</b></h1>
+            <div class="bo">
+                <div class="vertical">
+                    <img class="image-top" src="html.jpeg" alt="">
+                    <div class="vertical-title"><b>HTML</b></div>
+                    <div class="vertical-desc">
+                        HTML stands for HyperText Markup Language. It is used to design web pages using a markup
+                        language.
+                        HTML is a combination of Hypertext and Markup language. Hypertext defines the link between web
+                        pages. A markup language is used to define the text document within the tag which defines the
+                        structure of web pages. This language is used to annotate (make notes for the computer) text so
+                        that
+                        a machine can understand it and manipulate text accordingly. Most markup languages (e.g. HTML)
+                        are
+                        human-readable. The language uses tags to define what manipulation has to be done on the text.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="css.png" alt="">
+                    <div class="vertical-title"><b>CSS</b></div>
+                    <div class="vertical-desc">
+                        CSS stands for Cascading Style Sheet. It allows you to manipulate the appearance and layout of
+                        the HTML document without compromising its structure. CSS has been around since 1996, it is
+                        quite surprising that its abilities have only recently been stretched.
+                        With CSS you are also able to achieve: Maintainability. Unless there are major changes,
+                        maintaining websites with CSS is very easy. CSS allows the separation of the typography and
+                        layout of your website from data in your laptop.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="javascript.png" alt="">
+                    <div class="vertical-title"><b>JavaScript</b></div>
+                    <div class="vertical-desc">Javascript is a scripting language, primarily designed for adding
+                        interactivity to web pages and web applications.Client side java scripts can be directly
+                        embedded into HTML web pages. While battling with Microsoft over web, netscape offered their
+                        client side script over distributed operating system, running a portable version of Sun
+                        Microsystems java, because java was a direct competitor of c++, aimed at professional
+                        developers. Netscape wanted a light-weight programming language that might complement java by
+                        appealing to non-professional developers like Microsoft’s Visual Basic .
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="java.jpg" alt="">
+                    <div class="vertical-title"><b>JAVA</b></div>
+                    <div class="vertical-desc">
+                        Java programming allows programmers to pen down the computer information and groundings by
+                        applying English commands rather than numeric forms. The language of java programming is
+                        considered a hovering level as humans can read and optimise it. Java can also be implemented to
+                        frame short and precise modules of applications. Some numerous websites and applications will be
+                        unable to facilitate without java installation. Java contains a set of rules that persuade the
+                        guidelines for writing known as syntax. The usage of Java can be seen far and wide in
+                        technologies like laptops, computers, mobile, gaming etc.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="python.png" alt="">
+                    <div class="vertical-title"><b>python</b></div>
+                    <div class="vertical-desc">
+                        Python is an interpreted, object-oriented, high-level programming language with dynamic
+                        semantics. Its high-level built in data structures, combined with dynamic typing and dynamic
+                        binding, make it very attractive for Rapid Application Development, as well as for use as a
+                        scripting or glue language to connect existing components together. Python's simple, easy to
+                        learn syntax emphasizes readability and therefore reduces the cost of program maintenance.
+                        Python supports modules and packages, which encourages program modularity and code reuse. The
+                        Python interpreter and the extensive standard library are available in source or binary form
+                        without charge for all major platforms, and can be freely distributed
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="c++.png" alt="">
+                    <div class="vertical-title"><b>C++</b></div>
+                    <div class="vertical-desc">
+                        C++ is an object-oriented programming (OOP) language that is viewed by many as the best language
+                        for creating large-scale applications. C++ is a superset of the C language. A related
+                        programming language, Java, is based on C++ but optimized for the distribution of program
+                        objects in a network such as the internet.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>portfolio</h3>
+            </div>
+            <div class="second">
+                <ul>
+                    <li>home</li>
+                    <li>About</li>
+                    <li>address</li>
+                    <li>contact</li>
+                </ul>
+            </div>
+            <div class="third">
+                <ul>
+                    <li>home</li>
+                    <li>About</li>
+                    <li>address</li>
+                    <li>contact</li>
+                </ul>
+            </div>
+            <div class="fourth">
+                <ul>
+                    <li>home</li>
+                    <li>About</li>
+                    <li>address</li>
+                    <li>contact</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="textcenter">
+            copyright &#169; www.tekibhubaneswari.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'iot engineer', 'graphic designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
